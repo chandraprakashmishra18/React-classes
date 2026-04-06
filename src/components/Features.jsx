@@ -8,7 +8,7 @@ const Features = () => {
       <div className="cards">
         <div className="card">Report </div>
         <div className="card">Help</div>
-        <div className="card">Contact Near By <Vet></Vet></div>
+        <div className="card">Contact Near By Vet</div>
       </div>
     </div>
   );

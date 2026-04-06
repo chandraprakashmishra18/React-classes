@@ -4,15 +4,19 @@ import HeroSection from "./components/herosection";
 import Features from "./components/Features";
 import Testimonials from "./components/testimonials";
 import Footer from "./components/footer";
+import Parent from "./propsPassing/Parent";
+import Child from "./propsPassing/Child";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <HeroSection />
       <Features />
       <Testimonials />
-      <Footer />
+      <Footer /> */}
+      <Parent/>
+      <Child/>
     </>
   );
 }
