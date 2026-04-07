@@ -6,28 +6,30 @@ import Testimonials from "./components/testimonials";
 import Footer from "./components/footer";
 import Parent from "./propsPassing/Parent";
 import Child from "./propsPassing/Child";
-
-// function App() {
-//   return (
-//     <>
-//       {/* <Navbar />
-//       <HeroSection />
-//       <Features />
-//       <Testimonials />
-//       <Footer /> */}
-//       <Parent/>
-//       <Child/>
-//     </>
-//   );
-// }
-
+import UseStateOne from "./Hooks/UseStateOne";
 
 function App() {
-  const isLoggedIn = false;
-  return(
-    <div>
-      {isLoggedIn ? <h1>Welcome User </h1> : <h1>Please Login </h1>}
-    </div>
-  )
+  return (
+    <>
+      {/* <Navbar />
+      <HeroSection />
+      <Features />
+      <Testimonials />
+      <Footer /> */}
+      {/* <Parent/>
+      <Child/> */}
+      <UseStateOne/>
+    </>
+  );
 }
+
+
+// function App() {
+//   const isLoggedIn = false;
+//   return(
+//     <div>
+//       {isLoggedIn ? <h1>Welcome User </h1> : <h1>Please Login </h1>}
+//     </div>
+//   )
+// }
 export default App;
