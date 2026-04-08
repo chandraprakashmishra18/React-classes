@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 import Parent from "./propsPassing/Parent";
 import Child from "./propsPassing/Child";
 import UseStateOne from "./Hooks/UseStateOne";
+import MultiCounter from "./Hooks/MultiCounter";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Footer /> */}
       {/* <Parent/>
       <Child/> */}
-      <UseStateOne/>
+      {/* <UseStateOne/> */}
+      <MultiCounter/>
     </>
   );
 }
