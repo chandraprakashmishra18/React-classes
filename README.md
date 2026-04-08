@@ -9,3 +9,5 @@
 NOTE: We can't rerender or update the value declared in normal js variable. That's why we use Hooks 
 
 NOTE: We've two states - current state and updated current state in updated current state we update the current state value. 
+
+setCount((prev)=>): Here prev target the latest previous value of the state.
