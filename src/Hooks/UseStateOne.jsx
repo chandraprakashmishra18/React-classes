@@ -12,7 +12,7 @@ const UseStateOne = () => {
         setCount(count-1);
     }
     function reset(){
-        setCount(count = 0);
+        setCount(0);
     }
   return (
     <>
