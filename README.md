@@ -11,3 +11,5 @@ NOTE: We can't rerender or update the value declared in normal js variable. That
 NOTE: We've two states - current state and updated current state in updated current state we update the current state value. 
 
 setCount((prev)=>): Here prev target the latest previous value of the state.
+
+Whenever we have to make two changes simulatneously we use ternary operator also known as toggle effect
