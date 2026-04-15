@@ -8,6 +8,11 @@ import Parent from "./propsPassing/Parent";
 import Child from "./propsPassing/Child";
 import UseStateOne from "./Hooks/UseStateOne";
 import MultiCounter from "./Hooks/MultiCounter";
+import DarkLightTheme from "./Hooks/DarkLightTheme";
+import FormInput from "./Hooks/FormInput";
+import ShowHide from "./Hooks/ShowHide";
+import ToDoList from "./Hooks/ToDoList";
+
 
 function App() {
   return (
@@ -20,7 +25,12 @@ function App() {
       {/* <Parent/>
       <Child/> */}
       {/* <UseStateOne/> */}
-      <MultiCounter/>
+      {/* <MultiCounter/> */}
+      <DarkLightTheme/>
+      <FormInput/>
+      <ShowHide/>
+      <ToDoList/>
+
     </>
   );
 }
