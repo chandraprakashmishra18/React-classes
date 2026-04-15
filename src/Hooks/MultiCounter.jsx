@@ -19,7 +19,7 @@ import { useState } from 'react';
 
 const Function = () => {
 
-  const[count,setCount]   =  useState([0,0])
+  const[count,setCount]   =  useState([0,0,0,0])
   
   const increment=(index)=>{
     setCount((prevCount)=>{
